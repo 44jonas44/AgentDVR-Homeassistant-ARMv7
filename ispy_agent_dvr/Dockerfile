@@ -38,8 +38,3 @@ EXPOSE 50000-50010/udp
 
 
 CMD ["/agent/run"]
-
-LABEL \
-  io.hass.version="VERSION" \
-  io.hass.type="addon" \
-  io.hass.arch="aarch64"
